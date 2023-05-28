@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://cfr36g6cj5t8j"]
 
-[ext_resource type="Script" path="res://player.gd" id="1_r2gaf"]
-[ext_resource type="Texture2D" uid="uid://dy4ray43t5q64" path="res://icon.svg" id="2_lcvly"]
+[ext_resource type="Script" path="res://player.gd" id="1_a47vk"]
+[ext_resource type="Texture2D" uid="uid://dy4ray43t5q64" path="res://icon.svg" id="2_4avrc"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_chdns"]
 font_size = 128
@@ -10,10 +10,10 @@ font_size = 128
 size = Vector2(116, 69)
 
 [node name="Player" type="Area2D"]
-script = ExtResource("1_r2gaf")
+script = ExtResource("1_a47vk")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-texture = ExtResource("2_lcvly")
+texture = ExtResource("2_4avrc")
 
 [node name="RayCast2D" type="RayCast2D" parent="."]
 rotation = -3.14159
